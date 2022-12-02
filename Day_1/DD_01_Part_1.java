@@ -20,6 +20,7 @@ public class Main{
       String row = inputStream.nextLine();
       if(row.isEmpty()){if(tmp > maxCalories) maxCalories = tmp;tmp = 0;}
       else{tmp += Integer.parseInt(row);}}
+    inputStream.close();
     System.out.println(maxCalories);
   }
 }
