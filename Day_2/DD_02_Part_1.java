@@ -28,7 +28,7 @@ public class Main {
   private static int equiv(String game){return game.equals("A") || game.equals("X")? 0
       :(game.equals("B") || game.equals("Y"))? 1: 2;}
   private static int usedPoints(String game){return game.equals("X") ? 1 : (game.equals("Y")? 2 : 3);  }
-
+//Indicate if you have won the match
   private static boolean result(String[] game){
     return equiv(game[0]) - equiv(game[1]) == -1 ||
         (equiv(game[0]) - equiv(game[1]) == 2);}
