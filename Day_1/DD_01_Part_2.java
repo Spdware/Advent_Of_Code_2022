@@ -22,6 +22,7 @@ public class Main{
       if(row.isEmpty()){elves.add(tmp);tmp = 0;}
       else{tmp += Integer.parseInt(row);}}
     for(int i = 0; i < 3; i++)maxCalories += maxElf(elves);
+    inputStream.close();
     System.out.println(maxCalories);
   }
   //Calculate the maxiumum calories among the elves' backpack
