@@ -15,6 +15,7 @@ public class Main{
       System.out.println("File non trovato");
       System.exit(0);
     }
+    //Calculate the maximum calories in the elves bacpack
     while(inputStream.hasNextLine()){
       String row = inputStream.nextLine();
       if(row.isEmpty()){if(tmp > maxCalories) maxCalories = tmp;tmp = 0;}
