@@ -15,7 +15,7 @@ public class Rucksack {
       if(secondContainer.indexOf(c) != -1)
         return (c >= 65 && c <= 90)? (c - 64 + 26) : c - 96;
     }
-    System.out.println("Errore "+ firstContainer + secondContainer);
+    System.out.println("Error "+ firstContainer + secondContainer);
     return 0;
   }
 }
