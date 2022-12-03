@@ -11,7 +11,7 @@ public class Main {
     try{
       inputStream = new Scanner(new File("Test.txt"));
     }catch(FileNotFoundException e){
-      System.out.println("File non trovato");
+      System.out.println("File not found");
       System.exit(0);
     }
     while(inputStream.hasNextLine()) {
