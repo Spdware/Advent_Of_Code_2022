@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 import java.io.File;
 import java.io.FileNotFoundException;
-public class Assigner {
+public class Main {
   public static void main(String[] args){
     Scanner inputStream = null;
     Integer overlapping = 0;
